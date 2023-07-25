@@ -1,0 +1,273 @@
+Converting labels to one-hot encoding...
+1011    1
+1745    0
+1092    1
+230     1
+1942    0
+1237    0
+483     1
+763     1
+1495    0
+1176    0
+Name: Label, dtype: int64
+[[0. 1.]
+ [1. 0.]
+ [0. 1.]
+ [0. 1.]
+ [1. 0.]
+ [1. 0.]
+ [0. 1.]
+ [0. 1.]
+ [1. 0.]
+ [1. 0.]]
+Training the model...
+Learning rate:  0.05  for epoch:  0
+Epoch 1/50
+50/53 [===========================>..] - ETA: 0s - loss: 0.7423 - accuracy: 0.5469 - auc_8: 0.5890 - precision_8: 0.5488 - recall_8: 0.4812 - true_positives_8: 770.0000 - true_negatives_8: 967.0000 - false_positives_8: 633.0000 - false_negatives_8: 830.0000 - categorical_crossentropy: 0.7423
+Epoch 1: val_accuracy improved from -inf to 0.70946, saving model to best_model.h5
+53/53 [==============================] - 3s 32ms/step - loss: 0.7425 - accuracy: 0.5424 - auc_8: 0.5813 - precision_8: 0.5439 - recall_8: 0.4815 - true_positives_8: 806.0000 - true_negatives_8: 998.0000 - false_positives_8: 676.0000 - false_negatives_8: 868.0000 - categorical_crossentropy: 0.7425 - val_loss: 0.6547 - val_accuracy: 0.7095 - val_auc_8: 0.7756 - val_precision_8: 0.6763 - val_recall_8: 0.7905 - val_true_positives_8: 234.0000 - val_true_negatives_8: 184.0000 - val_false_positives_8: 112.0000 - val_false_negatives_8: 62.0000 - val_categorical_crossentropy: 0.6547 - lr: 0.0500
+Learning rate:  0.05  for epoch:  1
+Epoch 2/50
+51/53 [===========================>..] - ETA: 0s - loss: 0.3531 - accuracy: 0.8683 - auc_8: 0.9257 - precision_8: 0.8614 - recall_8: 0.8683 - true_positives_8: 1417.0000 - true_negatives_8: 1404.0000 - false_positives_8: 228.0000 - false_negatives_8: 215.0000 - categorical_crossentropy: 0.3531
+Epoch 2: val_accuracy improved from 0.70946 to 0.88851, saving model to best_model.h5
+53/53 [==============================] - 1s 21ms/step - loss: 0.3499 - accuracy: 0.8698 - auc_8: 0.9272 - precision_8: 0.8630 - recall_8: 0.8692 - true_positives_8: 1455.0000 - true_negatives_8: 1443.0000 - false_positives_8: 231.0000 - false_negatives_8: 219.0000 - categorical_crossentropy: 0.3499 - val_loss: 0.2950 - val_accuracy: 0.8885 - val_auc_8: 0.9584 - val_precision_8: 0.8942 - val_recall_8: 0.8851 - val_true_positives_8: 262.0000 - val_true_negatives_8: 265.0000 - val_false_positives_8: 31.0000 - val_false_negatives_8: 34.0000 - val_categorical_crossentropy: 0.2950 - lr: 0.0500
+Learning rate:  0.05  for epoch:  2
+Epoch 3/50
+52/53 [============================>.] - ETA: 0s - loss: 0.1845 - accuracy: 0.9351 - auc_8: 0.9777 - precision_8: 0.9366 - recall_8: 0.9321 - true_positives_8: 1551.0000 - true_negatives_8: 1559.0000 - false_positives_8: 105.0000 - false_negatives_8: 113.0000 - categorical_crossentropy: 0.1845
+Epoch 3: val_accuracy improved from 0.88851 to 0.93919, saving model to best_model.h5
+53/53 [==============================] - 1s 20ms/step - loss: 0.1844 - accuracy: 0.9349 - auc_8: 0.9777 - precision_8: 0.9364 - recall_8: 0.9319 - true_positives_8: 1560.0000 - true_negatives_8: 1568.0000 - false_positives_8: 106.0000 - false_negatives_8: 114.0000 - categorical_crossentropy: 0.1844 - val_loss: 0.1980 - val_accuracy: 0.9392 - val_auc_8: 0.9840 - val_precision_8: 0.9392 - val_recall_8: 0.9392 - val_true_positives_8: 278.0000 - val_true_negatives_8: 278.0000 - val_false_positives_8: 18.0000 - val_false_negatives_8: 18.0000 - val_categorical_crossentropy: 0.1980 - lr: 0.0500
+Learning rate:  0.05  for epoch:  3
+Epoch 4/50
+51/53 [===========================>..] - ETA: 0s - loss: 0.1620 - accuracy: 0.9350 - auc_8: 0.9838 - precision_8: 0.9354 - recall_8: 0.9320 - true_positives_8: 1521.0000 - true_negatives_8: 1527.0000 - false_positives_8: 105.0000 - false_negatives_8: 111.0000 - categorical_crossentropy: 0.1620
+Epoch 4: val_accuracy did not improve from 0.93919
+53/53 [==============================] - 1s 21ms/step - loss: 0.1598 - accuracy: 0.9361 - auc_8: 0.9843 - precision_8: 0.9365 - recall_8: 0.9331 - true_positives_8: 1562.0000 - true_negatives_8: 1568.0000 - false_positives_8: 106.0000 - false_negatives_8: 112.0000 - categorical_crossentropy: 0.1598 - val_loss: 0.2765 - val_accuracy: 0.8919 - val_auc_8: 0.9681 - val_precision_8: 0.8980 - val_recall_8: 0.8919 - val_true_positives_8: 264.0000 - val_true_negatives_8: 266.0000 - val_false_positives_8: 30.0000 - val_false_negatives_8: 32.0000 - val_categorical_crossentropy: 0.2765 - lr: 0.0500
+Learning rate:  0.05  for epoch:  4
+Epoch 5/50
+52/53 [============================>.] - ETA: 0s - loss: 0.1408 - accuracy: 0.9489 - auc_8: 0.9868 - precision_8: 0.9494 - recall_8: 0.9465 - true_positives_8: 1575.0000 - true_negatives_8: 1580.0000 - false_positives_8: 84.0000 - false_negatives_8: 89.0000 - categorical_crossentropy: 0.1408
+Epoch 5: val_accuracy improved from 0.93919 to 0.96284, saving model to best_model.h5
+53/53 [==============================] - 1s 23ms/step - loss: 0.1403 - accuracy: 0.9492 - auc_8: 0.9869 - precision_8: 0.9497 - recall_8: 0.9468 - true_positives_8: 1585.0000 - true_negatives_8: 1590.0000 - false_positives_8: 84.0000 - false_negatives_8: 89.0000 - categorical_crossentropy: 0.1403 - val_loss: 0.1442 - val_accuracy: 0.9628 - val_auc_8: 0.9866 - val_precision_8: 0.9661 - val_recall_8: 0.9628 - val_true_positives_8: 285.0000 - val_true_negatives_8: 286.0000 - val_false_positives_8: 10.0000 - val_false_negatives_8: 11.0000 - val_categorical_crossentropy: 0.1442 - lr: 0.0500
+Learning rate:  0.05  for epoch:  5
+Epoch 6/50
+52/53 [============================>.] - ETA: 0s - loss: 0.1336 - accuracy: 0.9543 - auc_8: 0.9884 - precision_8: 0.9561 - recall_8: 0.9549 - true_positives_8: 1589.0000 - true_negatives_8: 1591.0000 - false_positives_8: 73.0000 - false_negatives_8: 75.0000 - categorical_crossentropy: 0.1336
+Epoch 6: val_accuracy did not improve from 0.96284
+53/53 [==============================] - 1s 21ms/step - loss: 0.1328 - accuracy: 0.9546 - auc_8: 0.9886 - precision_8: 0.9563 - recall_8: 0.9552 - true_positives_8: 1599.0000 - true_negatives_8: 1601.0000 - false_positives_8: 73.0000 - false_negatives_8: 75.0000 - categorical_crossentropy: 0.1328 - val_loss: 0.1405 - val_accuracy: 0.9527 - val_auc_8: 0.9858 - val_precision_8: 0.9527 - val_recall_8: 0.9527 - val_true_positives_8: 282.0000 - val_true_negatives_8: 282.0000 - val_false_positives_8: 14.0000 - val_false_negatives_8: 14.0000 - val_categorical_crossentropy: 0.1405 - lr: 0.0500
+Learning rate:  0.05  for epoch:  6
+Epoch 7/50
+51/53 [===========================>..] - ETA: 0s - loss: 0.1218 - accuracy: 0.9547 - auc_8: 0.9904 - precision_8: 0.9575 - recall_8: 0.9516 - true_positives_8: 1553.0000 - true_negatives_8: 1563.0000 - false_positives_8: 69.0000 - false_negatives_8: 79.0000 - categorical_crossentropy: 0.1218
+Epoch 7: val_accuracy did not improve from 0.96284
+53/53 [==============================] - 1s 23ms/step - loss: 0.1200 - accuracy: 0.9558 - auc_8: 0.9907 - precision_8: 0.9585 - recall_8: 0.9528 - true_positives_8: 1595.0000 - true_negatives_8: 1605.0000 - false_positives_8: 69.0000 - false_negatives_8: 79.0000 - categorical_crossentropy: 0.1200 - val_loss: 0.1521 - val_accuracy: 0.9561 - val_auc_8: 0.9841 - val_precision_8: 0.9555 - val_recall_8: 0.9426 - val_true_positives_8: 279.0000 - val_true_negatives_8: 283.0000 - val_false_positives_8: 13.0000 - val_false_negatives_8: 17.0000 - val_categorical_crossentropy: 0.1521 - lr: 0.0500
+Learning rate:  0.05  for epoch:  7
+Epoch 8/50
+52/53 [============================>.] - ETA: 0s - loss: 0.1068 - accuracy: 0.9597 - auc_8: 0.9925 - precision_8: 0.9626 - recall_8: 0.9579 - true_positives_8: 1594.0000 - true_negatives_8: 1602.0000 - false_positives_8: 62.0000 - false_negatives_8: 70.0000 - categorical_crossentropy: 0.1068
+Epoch 8: val_accuracy improved from 0.96284 to 0.97973, saving model to best_model.h5
+53/53 [==============================] - 1s 23ms/step - loss: 0.1068 - accuracy: 0.9594 - auc_8: 0.9925 - precision_8: 0.9628 - recall_8: 0.9576 - true_positives_8: 1603.0000 - true_negatives_8: 1612.0000 - false_positives_8: 62.0000 - false_negatives_8: 71.0000 - categorical_crossentropy: 0.1068 - val_loss: 0.0960 - val_accuracy: 0.9797 - val_auc_8: 0.9906 - val_precision_8: 0.9797 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0960 - lr: 0.0500
+Learning rate:  0.05  for epoch:  8
+Epoch 9/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0784 - accuracy: 0.9748 - auc_8: 0.9959 - precision_8: 0.9753 - recall_8: 0.9736 - true_positives_8: 1620.0000 - true_negatives_8: 1623.0000 - false_positives_8: 41.0000 - false_negatives_8: 44.0000 - categorical_crossentropy: 0.0784
+Epoch 9: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0807 - accuracy: 0.9743 - auc_8: 0.9956 - precision_8: 0.9749 - recall_8: 0.9731 - true_positives_8: 1629.0000 - true_negatives_8: 1632.0000 - false_positives_8: 42.0000 - false_negatives_8: 45.0000 - categorical_crossentropy: 0.0807 - val_loss: 1.0668 - val_accuracy: 0.5980 - val_auc_8: 0.7850 - val_precision_8: 0.5966 - val_recall_8: 0.5946 - val_true_positives_8: 176.0000 - val_true_negatives_8: 177.0000 - val_false_positives_8: 119.0000 - val_false_negatives_8: 120.0000 - val_categorical_crossentropy: 1.0668 - lr: 0.0500
+Learning rate:  0.05  for epoch:  9
+Epoch 10/50
+52/53 [============================>.] - ETA: 0s - loss: 0.1668 - accuracy: 0.9327 - auc_8: 0.9832 - precision_8: 0.9360 - recall_8: 0.9309 - true_positives_8: 1549.0000 - true_negatives_8: 1558.0000 - false_positives_8: 106.0000 - false_negatives_8: 115.0000 - categorical_crossentropy: 0.1668
+Epoch 10: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.1658 - accuracy: 0.9331 - auc_8: 0.9834 - precision_8: 0.9363 - recall_8: 0.9313 - true_positives_8: 1559.0000 - true_negatives_8: 1568.0000 - false_positives_8: 106.0000 - false_negatives_8: 115.0000 - categorical_crossentropy: 0.1658 - val_loss: 0.2168 - val_accuracy: 0.9122 - val_auc_8: 0.9800 - val_precision_8: 0.9181 - val_recall_8: 0.9088 - val_true_positives_8: 269.0000 - val_true_negatives_8: 272.0000 - val_false_positives_8: 24.0000 - val_false_negatives_8: 27.0000 - val_categorical_crossentropy: 0.2168 - lr: 0.0500
+Learning rate:  0.025  for epoch:  10
+Epoch 11/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0882 - accuracy: 0.9657 - auc_8: 0.9950 - precision_8: 0.9673 - recall_8: 0.9609 - true_positives_8: 1599.0000 - true_negatives_8: 1610.0000 - false_positives_8: 54.0000 - false_negatives_8: 65.0000 - categorical_crossentropy: 0.0882
+Epoch 11: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 23ms/step - loss: 0.0880 - accuracy: 0.9659 - auc_8: 0.9951 - precision_8: 0.9675 - recall_8: 0.9612 - true_positives_8: 1609.0000 - true_negatives_8: 1620.0000 - false_positives_8: 54.0000 - false_negatives_8: 65.0000 - categorical_crossentropy: 0.0880 - val_loss: 0.1291 - val_accuracy: 0.9662 - val_auc_8: 0.9895 - val_precision_8: 0.9727 - val_recall_8: 0.9628 - val_true_positives_8: 285.0000 - val_true_negatives_8: 288.0000 - val_false_positives_8: 8.0000 - val_false_negatives_8: 11.0000 - val_categorical_crossentropy: 0.1291 - lr: 0.0250
+Learning rate:  0.025  for epoch:  11
+Epoch 12/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0703 - accuracy: 0.9718 - auc_8: 0.9969 - precision_8: 0.9723 - recall_8: 0.9718 - true_positives_8: 1617.0000 - true_negatives_8: 1618.0000 - false_positives_8: 46.0000 - false_negatives_8: 47.0000 - categorical_crossentropy: 0.0703
+Epoch 12: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 23ms/step - loss: 0.0699 - accuracy: 0.9719 - auc_8: 0.9970 - precision_8: 0.9725 - recall_8: 0.9719 - true_positives_8: 1627.0000 - true_negatives_8: 1628.0000 - false_positives_8: 46.0000 - false_negatives_8: 47.0000 - categorical_crossentropy: 0.0699 - val_loss: 0.1285 - val_accuracy: 0.9527 - val_auc_8: 0.9905 - val_precision_8: 0.9561 - val_recall_8: 0.9561 - val_true_positives_8: 283.0000 - val_true_negatives_8: 283.0000 - val_false_positives_8: 13.0000 - val_false_negatives_8: 13.0000 - val_categorical_crossentropy: 0.1285 - lr: 0.0250
+Learning rate:  0.025  for epoch:  12
+Epoch 13/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0739 - accuracy: 0.9724 - auc_8: 0.9964 - precision_8: 0.9724 - recall_8: 0.9736 - true_positives_8: 1620.0000 - true_negatives_8: 1618.0000 - false_positives_8: 46.0000 - false_negatives_8: 44.0000 - categorical_crossentropy: 0.0739
+Epoch 13: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0740 - accuracy: 0.9725 - auc_8: 0.9964 - precision_8: 0.9726 - recall_8: 0.9737 - true_positives_8: 1630.0000 - true_negatives_8: 1628.0000 - false_positives_8: 46.0000 - false_negatives_8: 44.0000 - categorical_crossentropy: 0.0740 - val_loss: 0.0986 - val_accuracy: 0.9696 - val_auc_8: 0.9928 - val_precision_8: 0.9696 - val_recall_8: 0.9696 - val_true_positives_8: 287.0000 - val_true_negatives_8: 287.0000 - val_false_positives_8: 9.0000 - val_false_negatives_8: 9.0000 - val_categorical_crossentropy: 0.0986 - lr: 0.0250
+Learning rate:  0.025  for epoch:  13
+Epoch 14/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0626 - accuracy: 0.9754 - auc_8: 0.9975 - precision_8: 0.9760 - recall_8: 0.9778 - true_positives_8: 1627.0000 - true_negatives_8: 1624.0000 - false_positives_8: 40.0000 - false_negatives_8: 37.0000 - categorical_crossentropy: 0.0626
+Epoch 14: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0630 - accuracy: 0.9749 - auc_8: 0.9974 - precision_8: 0.9756 - recall_8: 0.9773 - true_positives_8: 1636.0000 - true_negatives_8: 1633.0000 - false_positives_8: 41.0000 - false_negatives_8: 38.0000 - categorical_crossentropy: 0.0630 - val_loss: 0.1018 - val_accuracy: 0.9730 - val_auc_8: 0.9923 - val_precision_8: 0.9730 - val_recall_8: 0.9730 - val_true_positives_8: 288.0000 - val_true_negatives_8: 288.0000 - val_false_positives_8: 8.0000 - val_false_negatives_8: 8.0000 - val_categorical_crossentropy: 0.1018 - lr: 0.0250
+Learning rate:  0.025  for epoch:  14
+Epoch 15/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0612 - accuracy: 0.9748 - auc_8: 0.9977 - precision_8: 0.9725 - recall_8: 0.9760 - true_positives_8: 1624.0000 - true_negatives_8: 1618.0000 - false_positives_8: 46.0000 - false_negatives_8: 40.0000 - categorical_crossentropy: 0.0612
+Epoch 15: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0612 - accuracy: 0.9749 - auc_8: 0.9977 - precision_8: 0.9726 - recall_8: 0.9761 - true_positives_8: 1634.0000 - true_negatives_8: 1628.0000 - false_positives_8: 46.0000 - false_negatives_8: 40.0000 - categorical_crossentropy: 0.0612 - val_loss: 0.1145 - val_accuracy: 0.9628 - val_auc_8: 0.9905 - val_precision_8: 0.9628 - val_recall_8: 0.9628 - val_true_positives_8: 285.0000 - val_true_negatives_8: 285.0000 - val_false_positives_8: 11.0000 - val_false_negatives_8: 11.0000 - val_categorical_crossentropy: 0.1145 - lr: 0.0250
+Learning rate:  0.025  for epoch:  15
+Epoch 16/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0605 - accuracy: 0.9796 - auc_8: 0.9976 - precision_8: 0.9772 - recall_8: 0.9808 - true_positives_8: 1632.0000 - true_negatives_8: 1626.0000 - false_positives_8: 38.0000 - false_negatives_8: 32.0000 - categorical_crossentropy: 0.0605
+Epoch 16: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0604 - accuracy: 0.9797 - auc_8: 0.9976 - precision_8: 0.9774 - recall_8: 0.9809 - true_positives_8: 1642.0000 - true_negatives_8: 1636.0000 - false_positives_8: 38.0000 - false_negatives_8: 32.0000 - categorical_crossentropy: 0.0604 - val_loss: 0.0849 - val_accuracy: 0.9696 - val_auc_8: 0.9950 - val_precision_8: 0.9664 - val_recall_8: 0.9730 - val_true_positives_8: 288.0000 - val_true_negatives_8: 286.0000 - val_false_positives_8: 10.0000 - val_false_negatives_8: 8.0000 - val_categorical_crossentropy: 0.0849 - lr: 0.0250
+Learning rate:  0.025  for epoch:  16
+Epoch 17/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0432 - accuracy: 0.9850 - auc_8: 0.9989 - precision_8: 0.9821 - recall_8: 0.9874 - true_positives_8: 1643.0000 - true_negatives_8: 1634.0000 - false_positives_8: 30.0000 - false_negatives_8: 21.0000 - categorical_crossentropy: 0.0432
+Epoch 17: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0430 - accuracy: 0.9851 - auc_8: 0.9989 - precision_8: 0.9822 - recall_8: 0.9875 - true_positives_8: 1653.0000 - true_negatives_8: 1644.0000 - false_positives_8: 30.0000 - false_negatives_8: 21.0000 - categorical_crossentropy: 0.0430 - val_loss: 0.1682 - val_accuracy: 0.9459 - val_auc_8: 0.9886 - val_precision_8: 0.9396 - val_recall_8: 0.9459 - val_true_positives_8: 280.0000 - val_true_negatives_8: 278.0000 - val_false_positives_8: 18.0000 - val_false_negatives_8: 16.0000 - val_categorical_crossentropy: 0.1682 - lr: 0.0250
+Learning rate:  0.025  for epoch:  17
+Epoch 18/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0442 - accuracy: 0.9808 - auc_8: 0.9988 - precision_8: 0.9790 - recall_8: 0.9808 - true_positives_8: 1632.0000 - true_negatives_8: 1629.0000 - false_positives_8: 35.0000 - false_negatives_8: 32.0000 - categorical_crossentropy: 0.0442
+Epoch 18: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0459 - accuracy: 0.9803 - auc_8: 0.9988 - precision_8: 0.9785 - recall_8: 0.9803 - true_positives_8: 1641.0000 - true_negatives_8: 1638.0000 - false_positives_8: 36.0000 - false_negatives_8: 33.0000 - categorical_crossentropy: 0.0459 - val_loss: 0.0987 - val_accuracy: 0.9730 - val_auc_8: 0.9945 - val_precision_8: 0.9730 - val_recall_8: 0.9730 - val_true_positives_8: 288.0000 - val_true_negatives_8: 288.0000 - val_false_positives_8: 8.0000 - val_false_negatives_8: 8.0000 - val_categorical_crossentropy: 0.0987 - lr: 0.0250
+Learning rate:  0.025  for epoch:  18
+Epoch 19/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0468 - accuracy: 0.9820 - auc_8: 0.9987 - precision_8: 0.9797 - recall_8: 0.9844 - true_positives_8: 1638.0000 - true_negatives_8: 1630.0000 - false_positives_8: 34.0000 - false_negatives_8: 26.0000 - categorical_crossentropy: 0.0468
+Epoch 19: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0466 - accuracy: 0.9821 - auc_8: 0.9987 - precision_8: 0.9798 - recall_8: 0.9845 - true_positives_8: 1648.0000 - true_negatives_8: 1640.0000 - false_positives_8: 34.0000 - false_negatives_8: 26.0000 - categorical_crossentropy: 0.0466 - val_loss: 0.0984 - val_accuracy: 0.9696 - val_auc_8: 0.9942 - val_precision_8: 0.9696 - val_recall_8: 0.9696 - val_true_positives_8: 287.0000 - val_true_negatives_8: 287.0000 - val_false_positives_8: 9.0000 - val_false_negatives_8: 9.0000 - val_categorical_crossentropy: 0.0984 - lr: 0.0250
+Learning rate:  0.025  for epoch:  19
+Epoch 20/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0434 - accuracy: 0.9832 - auc_8: 0.9989 - precision_8: 0.9820 - recall_8: 0.9832 - true_positives_8: 1636.0000 - true_negatives_8: 1634.0000 - false_positives_8: 30.0000 - false_negatives_8: 28.0000 - categorical_crossentropy: 0.0434
+Epoch 20: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0431 - accuracy: 0.9833 - auc_8: 0.9989 - precision_8: 0.9821 - recall_8: 0.9833 - true_positives_8: 1646.0000 - true_negatives_8: 1644.0000 - false_positives_8: 30.0000 - false_negatives_8: 28.0000 - categorical_crossentropy: 0.0431 - val_loss: 0.0810 - val_accuracy: 0.9764 - val_auc_8: 0.9957 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0810 - lr: 0.0250
+Learning rate:  0.0125  for epoch:  20
+Epoch 21/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0317 - accuracy: 0.9892 - auc_8: 0.9994 - precision_8: 0.9892 - recall_8: 0.9886 - true_positives_8: 1645.0000 - true_negatives_8: 1646.0000 - false_positives_8: 18.0000 - false_negatives_8: 19.0000 - categorical_crossentropy: 0.0317
+Epoch 21: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0315 - accuracy: 0.9892 - auc_8: 0.9994 - precision_8: 0.9892 - recall_8: 0.9886 - true_positives_8: 1655.0000 - true_negatives_8: 1656.0000 - false_positives_8: 18.0000 - false_negatives_8: 19.0000 - categorical_crossentropy: 0.0315 - val_loss: 0.0808 - val_accuracy: 0.9764 - val_auc_8: 0.9961 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0808 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  21
+Epoch 22/50
+51/53 [===========================>..] - ETA: 0s - loss: 0.0282 - accuracy: 0.9902 - auc_8: 0.9995 - precision_8: 0.9908 - recall_8: 0.9908 - true_positives_8: 1617.0000 - true_negatives_8: 1617.0000 - false_positives_8: 15.0000 - false_negatives_8: 15.0000 - categorical_crossentropy: 0.0282
+Epoch 22: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 21ms/step - loss: 0.0277 - accuracy: 0.9904 - auc_8: 0.9995 - precision_8: 0.9910 - recall_8: 0.9910 - true_positives_8: 1659.0000 - true_negatives_8: 1659.0000 - false_positives_8: 15.0000 - false_negatives_8: 15.0000 - categorical_crossentropy: 0.0277 - val_loss: 0.0957 - val_accuracy: 0.9662 - val_auc_8: 0.9951 - val_precision_8: 0.9662 - val_recall_8: 0.9662 - val_true_positives_8: 286.0000 - val_true_negatives_8: 286.0000 - val_false_positives_8: 10.0000 - val_false_negatives_8: 10.0000 - val_categorical_crossentropy: 0.0957 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  22
+Epoch 23/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0256 - accuracy: 0.9904 - auc_8: 0.9997 - precision_8: 0.9904 - recall_8: 0.9910 - true_positives_8: 1649.0000 - true_negatives_8: 1648.0000 - false_positives_8: 16.0000 - false_negatives_8: 15.0000 - categorical_crossentropy: 0.0256
+Epoch 23: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0255 - accuracy: 0.9904 - auc_8: 0.9997 - precision_8: 0.9904 - recall_8: 0.9910 - true_positives_8: 1659.0000 - true_negatives_8: 1658.0000 - false_positives_8: 16.0000 - false_negatives_8: 15.0000 - categorical_crossentropy: 0.0255 - val_loss: 0.0837 - val_accuracy: 0.9764 - val_auc_8: 0.9953 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0837 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  23
+Epoch 24/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0281 - accuracy: 0.9898 - auc_8: 0.9994 - precision_8: 0.9904 - recall_8: 0.9904 - true_positives_8: 1648.0000 - true_negatives_8: 1648.0000 - false_positives_8: 16.0000 - false_negatives_8: 16.0000 - categorical_crossentropy: 0.0281
+Epoch 24: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0281 - accuracy: 0.9898 - auc_8: 0.9994 - precision_8: 0.9904 - recall_8: 0.9904 - true_positives_8: 1658.0000 - true_negatives_8: 1658.0000 - false_positives_8: 16.0000 - false_negatives_8: 16.0000 - categorical_crossentropy: 0.0281 - val_loss: 0.0932 - val_accuracy: 0.9797 - val_auc_8: 0.9935 - val_precision_8: 0.9798 - val_recall_8: 0.9831 - val_true_positives_8: 291.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 5.0000 - val_categorical_crossentropy: 0.0932 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  24
+Epoch 25/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0288 - accuracy: 0.9892 - auc_8: 0.9995 - precision_8: 0.9886 - recall_8: 0.9892 - true_positives_8: 1646.0000 - true_negatives_8: 1645.0000 - false_positives_8: 19.0000 - false_negatives_8: 18.0000 - categorical_crossentropy: 0.0288
+Epoch 25: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0286 - accuracy: 0.9892 - auc_8: 0.9995 - precision_8: 0.9887 - recall_8: 0.9892 - true_positives_8: 1656.0000 - true_negatives_8: 1655.0000 - false_positives_8: 19.0000 - false_negatives_8: 18.0000 - categorical_crossentropy: 0.0286 - val_loss: 0.0760 - val_accuracy: 0.9797 - val_auc_8: 0.9966 - val_precision_8: 0.9797 - val_recall_8: 0.9797 - val_true_positives_8: 290.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 6.0000 - val_categorical_crossentropy: 0.0760 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  25
+Epoch 26/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0240 - accuracy: 0.9916 - auc_8: 0.9997 - precision_8: 0.9910 - recall_8: 0.9904 - true_positives_8: 1648.0000 - true_negatives_8: 1649.0000 - false_positives_8: 15.0000 - false_negatives_8: 16.0000 - categorical_crossentropy: 0.0240
+Epoch 26: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0239 - accuracy: 0.9916 - auc_8: 0.9997 - precision_8: 0.9910 - recall_8: 0.9904 - true_positives_8: 1658.0000 - true_negatives_8: 1659.0000 - false_positives_8: 15.0000 - false_negatives_8: 16.0000 - categorical_crossentropy: 0.0239 - val_loss: 0.0810 - val_accuracy: 0.9764 - val_auc_8: 0.9957 - val_precision_8: 0.9764 - val_recall_8: 0.9797 - val_true_positives_8: 290.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 6.0000 - val_categorical_crossentropy: 0.0810 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  26
+Epoch 27/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0144 - accuracy: 0.9946 - auc_8: 0.9999 - precision_8: 0.9940 - recall_8: 0.9946 - true_positives_8: 1655.0000 - true_negatives_8: 1654.0000 - false_positives_8: 10.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0144
+Epoch 27: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0143 - accuracy: 0.9946 - auc_8: 0.9999 - precision_8: 0.9940 - recall_8: 0.9946 - true_positives_8: 1665.0000 - true_negatives_8: 1664.0000 - false_positives_8: 10.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0143 - val_loss: 0.0927 - val_accuracy: 0.9696 - val_auc_8: 0.9962 - val_precision_8: 0.9696 - val_recall_8: 0.9696 - val_true_positives_8: 287.0000 - val_true_negatives_8: 287.0000 - val_false_positives_8: 9.0000 - val_false_negatives_8: 9.0000 - val_categorical_crossentropy: 0.0927 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  27
+Epoch 28/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0250 - accuracy: 0.9916 - auc_8: 0.9995 - precision_8: 0.9910 - recall_8: 0.9922 - true_positives_8: 1651.0000 - true_negatives_8: 1649.0000 - false_positives_8: 15.0000 - false_negatives_8: 13.0000 - categorical_crossentropy: 0.0250
+Epoch 28: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0249 - accuracy: 0.9916 - auc_8: 0.9995 - precision_8: 0.9911 - recall_8: 0.9922 - true_positives_8: 1661.0000 - true_negatives_8: 1659.0000 - false_positives_8: 15.0000 - false_negatives_8: 13.0000 - categorical_crossentropy: 0.0249 - val_loss: 0.0821 - val_accuracy: 0.9764 - val_auc_8: 0.9962 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0821 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  28
+Epoch 29/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0119 - accuracy: 0.9970 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9964 - true_positives_8: 1658.0000 - true_negatives_8: 1659.0000 - false_positives_8: 5.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0119
+Epoch 29: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0118 - accuracy: 0.9970 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9964 - true_positives_8: 1668.0000 - true_negatives_8: 1669.0000 - false_positives_8: 5.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0118 - val_loss: 0.0900 - val_accuracy: 0.9764 - val_auc_8: 0.9953 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0900 - lr: 0.0125
+Learning rate:  0.0125  for epoch:  29
+Epoch 30/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0222 - accuracy: 0.9904 - auc_8: 0.9997 - precision_8: 0.9904 - recall_8: 0.9898 - true_positives_8: 1647.0000 - true_negatives_8: 1648.0000 - false_positives_8: 16.0000 - false_negatives_8: 17.0000 - categorical_crossentropy: 0.0222
+Epoch 30: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0228 - accuracy: 0.9898 - auc_8: 0.9997 - precision_8: 0.9898 - recall_8: 0.9892 - true_positives_8: 1656.0000 - true_negatives_8: 1657.0000 - false_positives_8: 17.0000 - false_negatives_8: 18.0000 - categorical_crossentropy: 0.0228 - val_loss: 0.0790 - val_accuracy: 0.9797 - val_auc_8: 0.9961 - val_precision_8: 0.9798 - val_recall_8: 0.9831 - val_true_positives_8: 291.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 5.0000 - val_categorical_crossentropy: 0.0790 - lr: 0.0125
+Learning rate:  0.00625  for epoch:  30
+Epoch 31/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0154 - accuracy: 0.9952 - auc_8: 0.9999 - precision_8: 0.9952 - recall_8: 0.9952 - true_positives_8: 1656.0000 - true_negatives_8: 1656.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0154
+Epoch 31: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0154 - accuracy: 0.9952 - auc_8: 0.9999 - precision_8: 0.9952 - recall_8: 0.9952 - true_positives_8: 1666.0000 - true_negatives_8: 1666.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0154 - val_loss: 0.0811 - val_accuracy: 0.9797 - val_auc_8: 0.9956 - val_precision_8: 0.9798 - val_recall_8: 0.9831 - val_true_positives_8: 291.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 5.0000 - val_categorical_crossentropy: 0.0811 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  31
+Epoch 32/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0200 - accuracy: 0.9928 - auc_8: 0.9997 - precision_8: 0.9928 - recall_8: 0.9940 - true_positives_8: 1654.0000 - true_negatives_8: 1652.0000 - false_positives_8: 12.0000 - false_negatives_8: 10.0000 - categorical_crossentropy: 0.0200
+Epoch 32: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0199 - accuracy: 0.9928 - auc_8: 0.9997 - precision_8: 0.9928 - recall_8: 0.9940 - true_positives_8: 1664.0000 - true_negatives_8: 1662.0000 - false_positives_8: 12.0000 - false_negatives_8: 10.0000 - categorical_crossentropy: 0.0199 - val_loss: 0.0808 - val_accuracy: 0.9764 - val_auc_8: 0.9964 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0808 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  32
+Epoch 33/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0120 - accuracy: 0.9958 - auc_8: 0.9999 - precision_8: 0.9958 - recall_8: 0.9946 - true_positives_8: 1655.0000 - true_negatives_8: 1657.0000 - false_positives_8: 7.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0120
+Epoch 33: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0119 - accuracy: 0.9958 - auc_8: 0.9999 - precision_8: 0.9958 - recall_8: 0.9946 - true_positives_8: 1665.0000 - true_negatives_8: 1667.0000 - false_positives_8: 7.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0119 - val_loss: 0.0826 - val_accuracy: 0.9764 - val_auc_8: 0.9960 - val_precision_8: 0.9731 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 288.0000 - val_false_positives_8: 8.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0826 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  33
+Epoch 34/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0149 - accuracy: 0.9946 - auc_8: 0.9999 - precision_8: 0.9940 - recall_8: 0.9946 - true_positives_8: 1655.0000 - true_negatives_8: 1654.0000 - false_positives_8: 10.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0149
+Epoch 34: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0148 - accuracy: 0.9946 - auc_8: 0.9999 - precision_8: 0.9940 - recall_8: 0.9946 - true_positives_8: 1665.0000 - true_negatives_8: 1664.0000 - false_positives_8: 10.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0148 - val_loss: 0.0847 - val_accuracy: 0.9797 - val_auc_8: 0.9958 - val_precision_8: 0.9798 - val_recall_8: 0.9831 - val_true_positives_8: 291.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 5.0000 - val_categorical_crossentropy: 0.0847 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  34
+Epoch 35/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0164 - accuracy: 0.9928 - auc_8: 0.9998 - precision_8: 0.9934 - recall_8: 0.9928 - true_positives_8: 1652.0000 - true_negatives_8: 1653.0000 - false_positives_8: 11.0000 - false_negatives_8: 12.0000 - categorical_crossentropy: 0.0164
+Epoch 35: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0163 - accuracy: 0.9928 - auc_8: 0.9998 - precision_8: 0.9934 - recall_8: 0.9928 - true_positives_8: 1662.0000 - true_negatives_8: 1663.0000 - false_positives_8: 11.0000 - false_negatives_8: 12.0000 - categorical_crossentropy: 0.0163 - val_loss: 0.0804 - val_accuracy: 0.9764 - val_auc_8: 0.9965 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0804 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  35
+Epoch 36/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0120 - accuracy: 0.9970 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9970 - true_positives_8: 1659.0000 - true_negatives_8: 1659.0000 - false_positives_8: 5.0000 - false_negatives_8: 5.0000 - categorical_crossentropy: 0.0120
+Epoch 36: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0119 - accuracy: 0.9970 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9970 - true_positives_8: 1669.0000 - true_negatives_8: 1669.0000 - false_positives_8: 5.0000 - false_negatives_8: 5.0000 - categorical_crossentropy: 0.0119 - val_loss: 0.0908 - val_accuracy: 0.9662 - val_auc_8: 0.9964 - val_precision_8: 0.9662 - val_recall_8: 0.9662 - val_true_positives_8: 286.0000 - val_true_negatives_8: 286.0000 - val_false_positives_8: 10.0000 - val_false_negatives_8: 10.0000 - val_categorical_crossentropy: 0.0908 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  36
+Epoch 37/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0103 - accuracy: 0.9964 - auc_8: 1.0000 - precision_8: 0.9958 - recall_8: 0.9964 - true_positives_8: 1658.0000 - true_negatives_8: 1657.0000 - false_positives_8: 7.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0103
+Epoch 37: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0103 - accuracy: 0.9964 - auc_8: 1.0000 - precision_8: 0.9958 - recall_8: 0.9964 - true_positives_8: 1668.0000 - true_negatives_8: 1667.0000 - false_positives_8: 7.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0103 - val_loss: 0.0893 - val_accuracy: 0.9730 - val_auc_8: 0.9966 - val_precision_8: 0.9730 - val_recall_8: 0.9730 - val_true_positives_8: 288.0000 - val_true_negatives_8: 288.0000 - val_false_positives_8: 8.0000 - val_false_negatives_8: 8.0000 - val_categorical_crossentropy: 0.0893 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  37
+Epoch 38/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0114 - accuracy: 0.9952 - auc_8: 0.9999 - precision_8: 0.9952 - recall_8: 0.9952 - true_positives_8: 1656.0000 - true_negatives_8: 1656.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0114
+Epoch 38: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0113 - accuracy: 0.9952 - auc_8: 0.9999 - precision_8: 0.9952 - recall_8: 0.9952 - true_positives_8: 1666.0000 - true_negatives_8: 1666.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0113 - val_loss: 0.0824 - val_accuracy: 0.9797 - val_auc_8: 0.9966 - val_precision_8: 0.9797 - val_recall_8: 0.9797 - val_true_positives_8: 290.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 6.0000 - val_categorical_crossentropy: 0.0824 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  38
+Epoch 39/50
+51/53 [===========================>..] - ETA: 0s - loss: 0.0129 - accuracy: 0.9951 - auc_8: 0.9999 - precision_8: 0.9951 - recall_8: 0.9951 - true_positives_8: 1624.0000 - true_negatives_8: 1624.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0129
+Epoch 39: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0128 - accuracy: 0.9952 - auc_8: 0.9999 - precision_8: 0.9952 - recall_8: 0.9952 - true_positives_8: 1666.0000 - true_negatives_8: 1666.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0128 - val_loss: 0.0779 - val_accuracy: 0.9764 - val_auc_8: 0.9968 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0779 - lr: 0.0063
+Learning rate:  0.00625  for epoch:  39
+Epoch 40/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0116 - accuracy: 0.9958 - auc_8: 0.9999 - precision_8: 0.9958 - recall_8: 0.9970 - true_positives_8: 1659.0000 - true_negatives_8: 1657.0000 - false_positives_8: 7.0000 - false_negatives_8: 5.0000 - categorical_crossentropy: 0.0116
+Epoch 40: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 19ms/step - loss: 0.0116 - accuracy: 0.9958 - auc_8: 0.9999 - precision_8: 0.9958 - recall_8: 0.9970 - true_positives_8: 1669.0000 - true_negatives_8: 1667.0000 - false_positives_8: 7.0000 - false_negatives_8: 5.0000 - categorical_crossentropy: 0.0116 - val_loss: 0.0753 - val_accuracy: 0.9797 - val_auc_8: 0.9969 - val_precision_8: 0.9797 - val_recall_8: 0.9797 - val_true_positives_8: 290.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 6.0000 - val_categorical_crossentropy: 0.0753 - lr: 0.0063
+Learning rate:  0.003125  for epoch:  40
+Epoch 41/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0163 - accuracy: 0.9952 - auc_8: 0.9998 - precision_8: 0.9952 - recall_8: 0.9946 - true_positives_8: 1655.0000 - true_negatives_8: 1656.0000 - false_positives_8: 8.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0163
+Epoch 41: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0162 - accuracy: 0.9952 - auc_8: 0.9998 - precision_8: 0.9952 - recall_8: 0.9946 - true_positives_8: 1665.0000 - true_negatives_8: 1666.0000 - false_positives_8: 8.0000 - false_negatives_8: 9.0000 - categorical_crossentropy: 0.0162 - val_loss: 0.0766 - val_accuracy: 0.9764 - val_auc_8: 0.9968 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0766 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  41
+Epoch 42/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0134 - accuracy: 0.9952 - auc_8: 0.9999 - precision_8: 0.9952 - recall_8: 0.9952 - true_positives_8: 1656.0000 - true_negatives_8: 1656.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0134
+Epoch 42: val_accuracy did not improve from 0.97973
+53/53 [==============================] - 1s 20ms/step - loss: 0.0133 - accuracy: 0.9952 - auc_8: 0.9999 - precision_8: 0.9952 - recall_8: 0.9952 - true_positives_8: 1666.0000 - true_negatives_8: 1666.0000 - false_positives_8: 8.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0133 - val_loss: 0.0776 - val_accuracy: 0.9764 - val_auc_8: 0.9970 - val_precision_8: 0.9764 - val_recall_8: 0.9764 - val_true_positives_8: 289.0000 - val_true_negatives_8: 289.0000 - val_false_positives_8: 7.0000 - val_false_negatives_8: 7.0000 - val_categorical_crossentropy: 0.0776 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  42
+Epoch 43/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0141 - accuracy: 0.9928 - auc_8: 0.9999 - precision_8: 0.9928 - recall_8: 0.9934 - true_positives_8: 1653.0000 - true_negatives_8: 1652.0000 - false_positives_8: 12.0000 - false_negatives_8: 11.0000 - categorical_crossentropy: 0.0141
+Epoch 43: val_accuracy improved from 0.97973 to 0.98311, saving model to best_model.h5
+53/53 [==============================] - 1s 20ms/step - loss: 0.0141 - accuracy: 0.9928 - auc_8: 0.9999 - precision_8: 0.9928 - recall_8: 0.9934 - true_positives_8: 1663.0000 - true_negatives_8: 1662.0000 - false_positives_8: 12.0000 - false_negatives_8: 11.0000 - categorical_crossentropy: 0.0141 - val_loss: 0.0800 - val_accuracy: 0.9831 - val_auc_8: 0.9958 - val_precision_8: 0.9831 - val_recall_8: 0.9831 - val_true_positives_8: 291.0000 - val_true_negatives_8: 291.0000 - val_false_positives_8: 5.0000 - val_false_negatives_8: 5.0000 - val_categorical_crossentropy: 0.0800 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  43
+Epoch 44/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0094 - accuracy: 0.9964 - auc_8: 1.0000 - precision_8: 0.9964 - recall_8: 0.9964 - true_positives_8: 1658.0000 - true_negatives_8: 1658.0000 - false_positives_8: 6.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0094
+Epoch 44: val_accuracy improved from 0.98311 to 0.98649, saving model to best_model.h5
+53/53 [==============================] - 1s 20ms/step - loss: 0.0094 - accuracy: 0.9964 - auc_8: 1.0000 - precision_8: 0.9964 - recall_8: 0.9964 - true_positives_8: 1668.0000 - true_negatives_8: 1668.0000 - false_positives_8: 6.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0094 - val_loss: 0.0748 - val_accuracy: 0.9865 - val_auc_8: 0.9967 - val_precision_8: 0.9799 - val_recall_8: 0.9865 - val_true_positives_8: 292.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 4.0000 - val_categorical_crossentropy: 0.0748 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  44
+Epoch 45/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0077 - accuracy: 0.9964 - auc_8: 1.0000 - precision_8: 0.9970 - recall_8: 0.9964 - true_positives_8: 1658.0000 - true_negatives_8: 1659.0000 - false_positives_8: 5.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0077
+Epoch 45: val_accuracy did not improve from 0.98649
+53/53 [==============================] - 1s 20ms/step - loss: 0.0076 - accuracy: 0.9964 - auc_8: 1.0000 - precision_8: 0.9970 - recall_8: 0.9964 - true_positives_8: 1668.0000 - true_negatives_8: 1669.0000 - false_positives_8: 5.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0076 - val_loss: 0.0739 - val_accuracy: 0.9831 - val_auc_8: 0.9970 - val_precision_8: 0.9831 - val_recall_8: 0.9831 - val_true_positives_8: 291.0000 - val_true_negatives_8: 291.0000 - val_false_positives_8: 5.0000 - val_false_negatives_8: 5.0000 - val_categorical_crossentropy: 0.0739 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  45
+Epoch 46/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0085 - accuracy: 0.9970 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9976 - true_positives_8: 1660.0000 - true_negatives_8: 1659.0000 - false_positives_8: 5.0000 - false_negatives_8: 4.0000 - categorical_crossentropy: 0.0085
+Epoch 46: val_accuracy did not improve from 0.98649
+53/53 [==============================] - 1s 20ms/step - loss: 0.0085 - accuracy: 0.9970 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9976 - true_positives_8: 1670.0000 - true_negatives_8: 1669.0000 - false_positives_8: 5.0000 - false_negatives_8: 4.0000 - categorical_crossentropy: 0.0085 - val_loss: 0.0752 - val_accuracy: 0.9797 - val_auc_8: 0.9971 - val_precision_8: 0.9797 - val_recall_8: 0.9797 - val_true_positives_8: 290.0000 - val_true_negatives_8: 290.0000 - val_false_positives_8: 6.0000 - val_false_negatives_8: 6.0000 - val_categorical_crossentropy: 0.0752 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  46
+Epoch 47/50
+51/53 [===========================>..] - ETA: 0s - loss: 0.0057 - accuracy: 0.9988 - auc_8: 1.0000 - precision_8: 0.9994 - recall_8: 0.9988 - true_positives_8: 1630.0000 - true_negatives_8: 1631.0000 - false_positives_8: 1.0000 - false_negatives_8: 2.0000 - categorical_crossentropy: 0.0057
+Epoch 47: val_accuracy did not improve from 0.98649
+53/53 [==============================] - 1s 22ms/step - loss: 0.0056 - accuracy: 0.9988 - auc_8: 1.0000 - precision_8: 0.9994 - recall_8: 0.9988 - true_positives_8: 1672.0000 - true_negatives_8: 1673.0000 - false_positives_8: 1.0000 - false_negatives_8: 2.0000 - categorical_crossentropy: 0.0056 - val_loss: 0.0773 - val_accuracy: 0.9831 - val_auc_8: 0.9971 - val_precision_8: 0.9832 - val_recall_8: 0.9865 - val_true_positives_8: 292.0000 - val_true_negatives_8: 291.0000 - val_false_positives_8: 5.0000 - val_false_negatives_8: 4.0000 - val_categorical_crossentropy: 0.0773 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  47
+Epoch 48/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0112 - accuracy: 0.9964 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9964 - true_positives_8: 1658.0000 - true_negatives_8: 1659.0000 - false_positives_8: 5.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0112
+Epoch 48: val_accuracy did not improve from 0.98649
+53/53 [==============================] - 1s 20ms/step - loss: 0.0111 - accuracy: 0.9964 - auc_8: 0.9999 - precision_8: 0.9970 - recall_8: 0.9964 - true_positives_8: 1668.0000 - true_negatives_8: 1669.0000 - false_positives_8: 5.0000 - false_negatives_8: 6.0000 - categorical_crossentropy: 0.0111 - val_loss: 0.0802 - val_accuracy: 0.9865 - val_auc_8: 0.9965 - val_precision_8: 0.9865 - val_recall_8: 0.9865 - val_true_positives_8: 292.0000 - val_true_negatives_8: 292.0000 - val_false_positives_8: 4.0000 - val_false_negatives_8: 4.0000 - val_categorical_crossentropy: 0.0802 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  48
+Epoch 49/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0091 - accuracy: 0.9976 - auc_8: 1.0000 - precision_8: 0.9970 - recall_8: 0.9976 - true_positives_8: 1660.0000 - true_negatives_8: 1659.0000 - false_positives_8: 5.0000 - false_negatives_8: 4.0000 - categorical_crossentropy: 0.0091
+Epoch 49: val_accuracy did not improve from 0.98649
+53/53 [==============================] - 1s 20ms/step - loss: 0.0091 - accuracy: 0.9976 - auc_8: 1.0000 - precision_8: 0.9970 - recall_8: 0.9976 - true_positives_8: 1670.0000 - true_negatives_8: 1669.0000 - false_positives_8: 5.0000 - false_negatives_8: 4.0000 - categorical_crossentropy: 0.0091 - val_loss: 0.0785 - val_accuracy: 0.9730 - val_auc_8: 0.9972 - val_precision_8: 0.9730 - val_recall_8: 0.9730 - val_true_positives_8: 288.0000 - val_true_negatives_8: 288.0000 - val_false_positives_8: 8.0000 - val_false_negatives_8: 8.0000 - val_categorical_crossentropy: 0.0785 - lr: 0.0031
+Learning rate:  0.003125  for epoch:  49
+Epoch 50/50
+52/53 [============================>.] - ETA: 0s - loss: 0.0106 - accuracy: 0.9958 - auc_8: 0.9999 - precision_8: 0.9958 - recall_8: 0.9952 - true_positives_8: 1656.0000 - true_negatives_8: 1657.0000 - false_positives_8: 7.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0106
+Epoch 50: val_accuracy did not improve from 0.98649
+53/53 [==============================] - 1s 20ms/step - loss: 0.0107 - accuracy: 0.9958 - auc_8: 0.9999 - precision_8: 0.9958 - recall_8: 0.9952 - true_positives_8: 1666.0000 - true_negatives_8: 1667.0000 - false_positives_8: 7.0000 - false_negatives_8: 8.0000 - categorical_crossentropy: 0.0107 - val_loss: 0.0771 - val_accuracy: 0.9865 - val_auc_8: 0.9968 - val_precision_8: 0.9865 - val_recall_8: 0.9865 - val_true_positives_8: 292.0000 - val_true_negatives_8: 292.0000 - val_false_positives_8: 4.0000 - val_false_negatives_8: 4.0000 - val_categorical_crossentropy: 0.0771 - lr: 0.0031
